@@ -58,7 +58,7 @@ This course covered important concepts of data storytelling such as developing a
 
 
 ## Milestone Project 1: Analyzing Stars Data for the Elonians
-In this first Milestone Project, I analyzed the Stars dataset as a Data Scientist working at a Space Research Company named AWAY (Aliens Where Are You). I was tasked to find out which yellow dwarf stars are similar to the Sun that supports life on Earth based on characteristics such as Absolute Magnitude, Radius, Luminosity, and Color. The goal is to find yellow dwarf stars nearby other planets that has similar characteristics to that of the Sun. Those planets that surrounded other dwarf stars are known to support alien lifeforms, which is crucial for finding a potential home planet for various groups of alien species, and humans.
+In this first Milestone Project, I analyzed the Stars dataset as a Data Scientist working at a Space Research Company named AWAY (Aliens Where Are You). I was tasked to determine which yellow dwarf stars are similar to the Sun that supports life on Earth based on characteristics such as Absolute Magnitude, Radius, Luminosity, and Color. The goal is to find yellow dwarf stars nearby other planets that have similar characteristics to that of the Sun. Those planets that surround other dwarf stars are known to support alien lifeforms, which is crucial for finding a potential home planet for various groups of alien species, and humans.
 
 The methods used to complete this project involved the following:
 - Cleaning/wrangling the Stars dataset using Excel
