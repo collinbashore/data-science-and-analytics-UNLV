@@ -13,11 +13,11 @@ This course covered the following topics/learning objectives:
 - Using a variety of SQL statements to query, update, insert, or delete data
 - Using aggregate and summary functions when querying data
 
-##### Tools/Software used:
+#### Tools/Software used:
 - [MySQL (most recent version)](https://dev.mysql.com/downloads/windows/installer/8.0.html) for Windows
 - [MYSQL Workbench (most recent version)](https://dev.mysql.com/downloads/workbench/) for Windows
 
-##### [Project: Analyzing Data for Drop Table Records using MySQL](https://github.com/collinbashore/data-analytics-portfolio/blob/main/SQL%20%26%20Databases/Collin%20Bashore's%20SQL%20Final%20Project.sql)
+#### [Project: Analyzing Data for Drop Table Records using MySQL](https://github.com/collinbashore/data-analytics-portfolio/blob/main/SQL%20%26%20Databases/Collin%20Bashore's%20SQL%20Final%20Project.sql)
 
  - Wrote and implemented SQL queries as a Data Analyst at Drop Table Records
  - Created database schema and imported files into MySQL.
@@ -33,13 +33,13 @@ This course covered the following topics/learning objectives:
 ## Statistics & Probability
 This course covered fundamental statistical topics such as descriptive statistics, probability, sampling methods, hypothesis testing, and linear regression.
 
-##### Tools/Software used:
+#### Tools/Software used:
 - Excel
 - Python (for Activity)
 - Jupyter Notebook (For Activity)
 
 
-##### [Activity: Calculating Z-Scores and Theoretical Sample Size for a Single Proportion](https://github.com/collinbashore/data-analytics-portfolio/tree/main/Statistics%20%26%20Probability)
+#### [Activity: Calculating Z-Scores and Theoretical Sample Size for a Single Proportion](https://github.com/collinbashore/data-analytics-portfolio/tree/main/Statistics%20%26%20Probability)
 
 - Calculated z-scores of raw test scores in Mrs. Diaz's class.
 - Calculated the theoretical sample size Mrs. Diaz's will need to conduct a survey on student's study habits and test scores. This calculation was performed using the formula for the sample size for a single proportion given the sample proportion, confidence interval, and margin of error using Excel and Python
@@ -50,7 +50,7 @@ This course covered fundamental statistical topics such as descriptive statistic
 This course covered important concepts of data storytelling such as developing a story arc, communicating data insights based on audience and stakeholders, choosing elements of a story that are most effective for a given scenario, and report writing.
 
 
-##### [Activity: Petra's Place Audience](https://github.com/collinbashore/data-analytics-portfolio/blob/main/Data%20Storytelling/4.4.3%20Activity%20(2).pdf)
+#### [Activity: Petra's Place Audience](https://github.com/collinbashore/data-analytics-portfolio/blob/main/Data%20Storytelling/4.4.3%20Activity%20(2).pdf)
 - Created a storytelling arc for different audiences
 - Identified target audiences for Petra's Place based on the profession or skill level of the audience.
 - Implemented a strategy to reach out to each of the different target audiences.
@@ -67,7 +67,7 @@ The methods used to complete this project involved the following:
 - Planning a report
 - Developing a data story  
 
-##### Skills utilized:
+#### Skills utilized:
 - Excel
 - SQL
 - Data Storytelling
