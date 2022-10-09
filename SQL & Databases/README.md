@@ -24,7 +24,7 @@ This course covered the following topics/learning objectives:
 ![SQL](https://img.shields.io/badge/Code-SQL-informational?style=flat&color=008080)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=008080)
 
-#### Steps for Installation:
+#### Methods for Installing MySQL:
 
 ##### Method 1: Using the MySQL Installer
 - [MySQL (most recent version)](https://dev.mysql.com/downloads/windows/installer/8.0.html) for Windows
@@ -32,5 +32,3 @@ This course covered the following topics/learning objectives:
 ##### Method 2: Installing the MySQL Workbench and MySQL Community Server separately
 - [MySQL Community Server (most recent version)](https://dev.mysql.com/downloads/mysql/) for Windows
 - [MySQL Workbench (most recent version)](https://dev.mysql.com/downloads/workbench/) for Windows
-
-
