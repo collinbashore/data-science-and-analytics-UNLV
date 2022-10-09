@@ -50,7 +50,7 @@ WHERE albumname IS NULL
 OR releasedate IS NULL;
 
 
-######## Part 2: Joining Data, using aggregate SQL functions, inserting, updating, and deleting data 
+######## Part 2: Joining Data, using Aggregate SQL functions, Inserting, Updating, and Deleting data 
 
 -- Task 1: Add more bands to the band table
 ## Band name
@@ -76,22 +76,22 @@ VALUES ('Weezer'),
 -- Task 3: Using the table identified in Task 2, add the following values (table values provided in 2.8 final project.pdf).
 
 INSERT INTO band.player (InstID, idband, pfname, plname, homecity, homestate)
-VALUES (3, 22, 'Rivers', 'Cuomo', 'Rochester', 'NY'),
-	   (1, 22, 'Brian', 'Bell', 'Iowa City', 'IA'),
-       (4, 22, 'Patrick', 'Wilson', 'Buffalo', 'NY'),
-       (2, 22, 'Scott', 'Shriner', 'Toledo', 'OH'),
-       (3, 23, 'Tionne', 'Watkins', 'Des Moines', 'IA'),
-       (3, 23, 'Rozonda', 'Thomas', 'Columbus', 'GA'),
-       (3, 24, 'Hayley', 'Williams', 'Franklin', 'TN'),
-       (1, 24, 'Taylor', 'York', 'Nashville', 'TN'),
-       (4, 24, 'Zac', 'Farro', 'Voorhees Township', 'NJ'),
+VALUES (3, 22, 'Rivers', 'Cuomo', 'Rochester', 'New York'),
+	   (1, 22, 'Brian', 'Bell', 'Iowa City', 'Iowa'),
+       (4, 22, 'Patrick', 'Wilson', 'Buffalo', 'New York'),
+       (2, 22, 'Scott', 'Shriner', 'Toledo', 'Ohio'),
+       (3, 23, 'Tionne', 'Watkins', 'Des Moines', 'Iowa'),
+       (3, 23, 'Rozonda', 'Thomas', 'Columbus', 'Georgia'),
+       (3, 24, 'Hayley', 'Williams', 'Franklin', 'Tennessee'),
+       (1, 24, 'Taylor', 'York', 'Nashville', 'Tennessee'),
+       (4, 24, 'Zac', 'Farro', 'Voorhees Township', 'New Jersey'),
        (3, 25, 'Jisoo', 'Kim', NULL, 'South Korea'),
        (3, 25, 'Jennie', 'Kim', NULL, 'South Korea'),
        (3, 25, 'Roseanne', 'Park', NULL, 'New Zealand'),
        (3, 25, 'Lisa', 'Manoban', NULL, 'Thailand'),
-       (3, 26, 'Ezra', 'Koenig', 'New York', 'NY'),
-       (2, 26, 'Chris', 'Baio', 'Bronxville', 'NY'),
-       (4, 26, 'Chris', 'Tomson', 'Upper Freehold Township', 'NJ');
+       (3, 26, 'Ezra', 'Koenig', 'New York', 'New York'),
+       (2, 26, 'Chris', 'Baio', 'Bronxville', 'New York'),
+       (4, 26, 'Chris', 'Tomson', 'Upper Freehold Township', 'New Jersey');
        
 -- Task 4: Add new venue information to the venue table
 
@@ -126,8 +126,8 @@ ORDER BY total_num_of_seats DESC; -- CA has the largest amount of seating availa
 -- Task 2: Using the table mentioned in Task 1 above, add the following information
 
 ## Venue                 ## Band                 ## Date             ## Expected Attendees
-# TD Garden              Eminem				     May 5, 2022         19,000
-# Twin City Rock House   Vampire Weekend		 April 15, 2022
+# TD Garden              Eminem	                 May 5, 2022         19,000
+# Twin City Rock House   Vampire Weekend         April 15, 2022
 # SAP Center             TLC                     June 7, 2022        18,000
 # The River Club         Weezer                  July 3, 2022        175
 
@@ -209,6 +209,8 @@ BEGIN
     AND p.homestate = state_name
 	GROUP BY CONCAT(pfname, ' ', plname);
 END $
+
+-- Call the stored procedure to search for band members (players) located in "Tennessee"
 
 call band.location_of_players('Tennessee');
 
