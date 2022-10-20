@@ -8,6 +8,8 @@ Science & Analytics program with the University of Nevada Las Vegas (UNLV), in p
   <img src="https://github.com/collinbashore/data-analytics-portfolio/blob/main/unlv%20logo.png">
 </p>
 
+Below are the tables (with links provided) for the Milestone Projects and the courses taken in the Data Science & Analytics Program.
+
 ## Milestone Projects
 
 | Project Number| Title                                 |       
