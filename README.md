@@ -1,6 +1,6 @@
 # Data Science & Analytics Portfolio
 This repository contains projects, class activities, and visualizations created from the Data
-Science & Analytics program with the University of Nevada Las Vegas (UNLV), with content provided by ThriveDX.
+Science & Analytics program with the University of Nevada Las Vegas (UNLV), in partnership with ThriveDX.
 
 <p align="center">
   <img src="https://github.com/collinbashore/data-analytics-portfolio/blob/main/ThriveDX%20logo.jfif">
