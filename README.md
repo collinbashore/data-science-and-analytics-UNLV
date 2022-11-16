@@ -14,7 +14,7 @@ Below are the tables (with links provided) for the Milestone Projects and the co
 
 | Project Number| Title                                 |       
 | ------------- |:-------------:                        |
-| Project #1    | [Analyzing Stars Data for the Elonians](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Milestone%20Project%201) | 
+| Project #1    | [Analyzing Stars Data for the Elonians](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Milestone%20Project%201) |
 | Project #2    |                                       |
 | Project #3    |                                       |
 
@@ -25,7 +25,7 @@ Below are the tables (with links provided) for the Milestone Projects and the co
 | Course #1     | [SQL & Databases](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/SQL%20%26%20Databases)|
 | Course #2     | [Statistics & Probability](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Statistics%20%26%20Probability)|
 | Course #3     | [Data Storytelling](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Data%20Storytelling)|
-| Course #4     | Advanced SQL Programming|
+| Course #4     | [Advanced SQL Programming](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Advanced%20SQL%20Programming)|
 | Course #5     | Python Programming|
 | Course #6     | Data Wrangling        |
 | Course #7     | Visual Communications |
