@@ -26,7 +26,7 @@ Below are the tables (with links provided) for the Milestone Projects and the co
 | Course #2     | [Statistics & Probability](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Statistics%20%26%20Probability)|
 | Course #3     | [Data Storytelling](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Data%20Storytelling)|
 | Course #4     | [Advanced SQL Programming](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Advanced%20SQL%20Programming)|
-| Course #5     | Python Programming|
+| Course #5     | [Python Programming](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Python%20Programming)|
 | Course #6     | Data Wrangling        |
 | Course #7     | Visual Communications |
 | Course #8     | Business Intelligence |
