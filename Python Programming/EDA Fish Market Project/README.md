@@ -10,7 +10,7 @@
 * Determine the relationship between the Average Length (cm) ad the Weight (g) of all fish by species.
 
 ## Dataset:
-* The dataset can be accessed from Kaggle: [Fish Market Dataset]("https://www.kaggle.com/datasets/aungpyaeap/fish-market")
+* The dataset can be accessed from Kaggle: [Fish Market Dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market)
 
 ## Exploratory Data Analysis
 <img src = "https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/fish_count.png">
@@ -23,10 +23,10 @@
 To interact with the plotly plots created in this project, you can go to the project notebook or interact with the plots
 linked here individually:
 
-* [Weight vs. Average Length]("https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/avglength_vs_weight.html")
-* [Height vs. Species]("https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/height_vs_species.html")
-* [Weight vs. Species]("https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/weight_vs_species.html")
-* [Width vs. Species]("https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/width_vs_species.html")
+* [Weight vs. Average Length](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/avglength_vs_weight.html)
+* [Height vs. Species](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/height_vs_species.html)
+* [Weight vs. Species](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/weight_vs_species.html)
+* [Width vs. Species](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/width_vs_species.html)
 
 
 ## Multivariate Regression Analysis
@@ -44,4 +44,4 @@ linked here individually:
 * Bream and Whitefish fish species should also be carefully place in each of the fish tanks since their average weights are a bit higher compared to other fish species.
 * There is a strong positive association between Weight and Average Length of Fish (r = 0.92)
 
-### Project Notebook can be accessed here: [Project Notebook]("https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/FIshMarketEDA.ipynb")
+### Project Notebook can be accessed here: [Project Notebook](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/FIshMarketEDA.ipynb)
