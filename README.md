@@ -15,7 +15,7 @@ Below are the tables (with links provided) for the Milestone Projects and the co
 | Project Number| Title                                 |       
 | ------------- |:-------------:                        |
 | Project #1    | [Analyzing Stars Data for the Elonians](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Milestone%20Project%201) |
-| Project #2    |                                       |
+| Project #2    |  Bird Tracking Data Analysis          |
 | Project #3    |                                       |
 
 ## Courses
