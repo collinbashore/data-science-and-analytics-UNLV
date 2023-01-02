@@ -8,8 +8,8 @@ It provides three-different travel packages for tourists to choose from based on
 
 ## Objectives
 
-* Join the two data tables bird_data and city_weather using SQL
-* Clean/Wrangle the joined data table and perform basic Exploratory Data Analysis (EDA) on numeric and categorical features.
+* Create a new dataset, using SQL and Python, by joining the two data tables bird_data and city_weather.
+* Cleaning the joined data table and perform basic Exploratory Data Analysis (EDA) on numeric and categorical features.
 * Build dashboards for each of the traveler profiles for travelers to plan their trips for bird watching.
 
 **The French Traveler**
@@ -32,8 +32,11 @@ It provides three-different travel packages for tourists to choose from based on
 
 ## Tools/Data Used
 
-* For Data Wrangling/Cleaning and EDA:
-* For creating dashboards:
+* For writing SQL queires and accessing MySQL database: ![SQLAlchemy](https://img.shields.io/badge/DS-sqlalchemy-%23150458.svg?style=flat&logoColor=white&color=008080)
+![MySQL](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=008080)
+* For Data Wrangling/Cleaning and EDA:![Pandas](https://img.shields.io/badge/DS-pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white&color=008080)
+![Plotly](https://img.shields.io/badge/DS-Plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white&color=008080)
+* For creating dashboards: ![Tableau](https://img.shields.io/badge/BI-Tableau-informational?style=flat&logo=Tableau&logoColor=white&color=008080)
 * City Weather Data: [city_weather.sql](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Milestone%20Project%202/city_weather.sql)
 * Bird Tracking Data: [bird_data.sql](https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Milestone%20Project%202/bird_data.sql)
 
@@ -54,8 +57,8 @@ It provides three-different travel packages for tourists to choose from based on
 ### For categorical features
 
 * Most of the observations in the dataset were nearest to the city of **Dakar** (in the country of Senegal)
-* Country with the *highest* average temperature is **Morocco.**
-* Country with the *lowest* averager temperature is **Guinea-Bissau.**
+* Country with the *lowest* average temperature is **Morocco.**
+* Country with the *highest* averager temperature is **Guinea-Bissau.**
 
 ## Traveler Profile Dashboards
 
