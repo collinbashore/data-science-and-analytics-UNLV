@@ -7,11 +7,17 @@
 ## Objectives:
 * Determine how the fishes should be distributed by species and weight.
 * Perform multivariate regression analysis to predict the average weight (cm) of all fish in the fish market.
-* Determine the relationship between the average length (cm) and the weight (g) of all fish by species.
+* Determine the relationship between the average length (cm) and the weight (in grams) of all fish by species.
 
-## Dataset:
+## Tools/Data used:
 * The dataset can be accessed from Kaggle: [Fish Market Dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market)
 
+**Tools:** ![Matplotlib](https://img.shields.io/badge/DS-Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black&color=008080)
+![NumPy](https://img.shields.io/badge/DS-numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white&color=008080)
+![Pandas](https://img.shields.io/badge/DS-pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white&color=008080)
+![Plotly](https://img.shields.io/badge/DS-Plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white&color=008080)
+![Statsmodels](https://img.shields.io/badge/DS-Statsmodels-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white&color=008080)
+![Seaborn](https://img.shields.io/badge/DS-Seaborn-%230C55A5.svg?style=flat&logo=seaborn&logoColor=%white&color=008080)
 ## Exploratory Data Analysis
 <img src = "https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/fish_count.png">
 <img src = 'https://github.com/collinbashore/data-science-and-analytics-portfolio/blob/main/Python%20Programming/EDA%20Fish%20Market%20Project/avglength_vs_weight.png'>
