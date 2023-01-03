@@ -1,13 +1,6 @@
 # Course #1: SQL and Databases
 
-This course covered the following topics/learning objectives:
-- Reading, writing, and interpreting SQL queries
-- Converting user requirements into an efficient SQL query that extracts the right data
-- Using a variety of SQL statements to query, update, insert, or delete data
-- Using aggregate and summary functions when querying data
-
-
-### Project: [Analyzing Data for Drop Table Records using MySQL](https://github.com/collinbashore/data-analytics-portfolio/blob/main/SQL%20%26%20Databases/Collin%20Bashore's%20SQL%20Final%20Project.sql)
+## Project: [Analyzing Data for Drop Table Records using MySQL](https://github.com/collinbashore/data-analytics-portfolio/blob/main/SQL%20%26%20Databases/Collin%20Bashore's%20SQL%20Final%20Project.sql)
 
  - Wrote and implemented SQL queries as a Data Analyst at Drop Table Records
  - Created database schema and imported files into MySQL.
