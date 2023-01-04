@@ -45,7 +45,8 @@ ORDER BY i.instrument DESC; -- The most popular instrument amongst all player is
 -- Task 5: Write a query that lists any albums that have a missing name and/or missing release dates. How should we handle these?
 /* Use the idalbum, albumname and releasedate columns from album table. Use the IS NULL to find missing values*/
 
-SELECT idalbum, albumname, releasedate FROM band.album
+SELECT idalbum, albumname, releasedate 
+FROM band.album
 WHERE albumname IS NULL 
 OR releasedate IS NULL;
 
@@ -62,7 +63,7 @@ OR releasedate IS NULL;
 
 INSERT INTO band.band (bandname)
 VALUES ('Weezer'),
-	   ('TLC'),
+       ('TLC'),
        ('Paramore'),
        ('Blackpink'),
        ('Vampire Weekend');
@@ -77,7 +78,7 @@ VALUES ('Weezer'),
 
 INSERT INTO band.player (InstID, idband, pfname, plname, homecity, homestate)
 VALUES (3, 22, 'Rivers', 'Cuomo', 'Rochester', 'New York'),
-	   (1, 22, 'Brian', 'Bell', 'Iowa City', 'Iowa'),
+       (1, 22, 'Brian', 'Bell', 'Iowa City', 'Iowa'),
        (4, 22, 'Patrick', 'Wilson', 'Buffalo', 'New York'),
        (2, 22, 'Scott', 'Shriner', 'Toledo', 'Ohio'),
        (3, 23, 'Tionne', 'Watkins', 'Des Moines', 'Iowa'),
@@ -105,8 +106,6 @@ VALUES (3, 22, 'Rivers', 'Cuomo', 'Rochester', 'New York'),
 INSERT INTO band.venue (vname, city, state, zipcode, seats)
 VALUES('Twin City Rock House', 'Minneapolis', 'MN', '55414', 2000);
 
-SELECT * FROM band.venue;
-
 -- Task 5: 
 /*Which state has the largest amount of seating available (regardless of the number of venues at the state)? 
 Hint: We are trying to determine the total number of seats for each state */
@@ -121,7 +120,7 @@ ORDER BY total_num_of_seats DESC; -- CA has the largest amount of seating availa
 
 -- Task 1: Which table should we use to add some data on upcoming performances for some of the artists?
 
-/* Use the gig table to add some data on upcoming performances fro some artists */
+/* Use the gig table to add some data on upcoming performances for some artists */
 
 -- Task 2: Using the table mentioned in Task 1 above, add the following information
 
@@ -131,25 +130,16 @@ ORDER BY total_num_of_seats DESC; -- CA has the largest amount of seating availa
 # SAP Center             TLC                     June 7, 2022        18,000
 # The River Club         Weezer                  July 3, 2022        175
 
-SELECT * FROM band.venue;
-SELECT * FROM band.band;
-SELECT * FROM band.album;
-
 INSERT INTO band.gig(idvenue, idband, gigdate, numattendees) 
 VALUES(4, 2, '2022-05-05', 19000),
 	  (12, 26, '2022-04-15', NULL),
       (8, 23, '2022-06-07', 18000),
       (2, 22, '2022-07-03', 175);
 
-SELECT * FROM band.gig;
-
 -- Task 3: Are any of the values oversold?
-SELECT * FROM band.gig;
-SELECT * FROM band.venue;
-
 SELECT v.vname, b.bandname, g.gigdate, g.numattendees, v.seats, 
 CASE WHEN g.numattendees > v.seats THEN TRUE   -- TRUE == 1
-	 WHEN g.numattendees < v.seats THEN FALSE  -- FALSE == 0
+     WHEN g.numattendees < v.seats THEN FALSE  -- FALSE == 0
      ELSE 'N/A' END AS 'Oversold?'
 FROM band.gig AS g
 INNER JOIN band.venue AS v
@@ -179,7 +169,6 @@ ON g.idband = b.idband
 INNER JOIN band.venue AS v
 ON g.idvenue = v.idvenue;
 
-SELECT * FROM vw_giginfo;
 ######## Part 4: Utilizing Basic Storage Procedures in SQL 
 
 -- Task 1: Create a stored procedure that lists all of the venues that can handle more than 10,000 guests
@@ -206,7 +195,7 @@ BEGIN
 	INNER JOIN band.band AS b
 	ON p.idband = b.idband
 	WHERE p.homestate NOT IN ('Ireland', 'Canada', 'Australia', 'South Korea', 'New Zealand', 'Thailand')
-    AND p.homestate = state_name
+        AND p.homestate = state_name
 	GROUP BY CONCAT(pfname, ' ', plname);
 END $
 
