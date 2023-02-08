@@ -29,7 +29,7 @@ Below are the tables (with links provided) for the Milestone Projects and the co
 | Course #5     | [Python Programming](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Python%20Programming)|
 | Course #6     | [Data Wrangling](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Data%20Wrangling)     |
 | Course #7     | [Visual Communications](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Visual%20Communications) |
-| Course #8     | Business Intelligence |
+| Course #8     | [Business Intelligence](https://github.com/collinbashore/data-science-and-analytics-portfolio/tree/main/Business%20Intelligence) |
 | Course #9     | Machine Learning      |
 | Course #10    | Big Data              |
 | Course #11    | Applied AI            |
