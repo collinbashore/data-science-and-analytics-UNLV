@@ -1,4 +1,4 @@
-# Data Science & Analytics Portfolio
+# Data Science & Analytics Certification Program
 This repository contains projects, class activities, and visualizations created from the Data
 Science & Analytics program with the University of Nevada Las Vegas (UNLV), in partnership with ThriveDX.
 
